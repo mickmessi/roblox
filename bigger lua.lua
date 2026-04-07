@@ -1386,13 +1386,18 @@ end)
 local playerName = game.Players.LocalPlayer.Name
 
 local infoBox = GroupBox(misc, "Info",
-    UDim2.new(0,10,0,263), UDim2.new(1,-20,0,100))
+    UDim2.new(0,10,0,263), UDim2.new(1,-20,0,200))
 
 Label(infoBox, "Connected  ●",              8,  Color3.fromRGB(80,200,80))
 Label(infoBox, "Welcome back, " .. playerName, 26, Color3.fromRGB(200,200,200))
 Label(infoBox, "K = menu toggle",          44, Color3.fromRGB(200,200,200))
 Label(infoBox, "End = eject/unload",       62, Color3.fromRGB(200,200,200))
-Label(infoBox, "Discord: @negerti",        80, Color3.fromRGB(200,200,200))
+Label(infoBox, "any bug or questions? @ me on Discord: @negerti",        80, Color3.fromRGB(200,200,200))
+Label(infoBox, "this is a free script so dont expect the most", 98, Color3.fromRGB(200,200,200))
+Label(infoBox, "i will be supporting other games later on", 116, Color3.fromRGB(200,200,200))
+Label(infoBox, "dm @negerti if you have game suggestions or feature suggestions.", 134, Color3.fromRGB(200,200,200))
+Label(infoBox, "i am not a pro scripter it is something i do for fun", 152, Color3.fromRGB(200,200,200))
+Label(infoBox, "the script is 95% self made", 170, Color3.fromRGB(200,200,200))
 -- ============================================================
 --  CONFIG TAB
 -- ============================================================
